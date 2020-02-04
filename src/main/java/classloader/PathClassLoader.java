@@ -17,7 +17,7 @@ public class PathClassLoader extends ClassLoader {
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         System.out.println(this.getClass().getClassLoader().getResource("").toString());
-        if("classloader".startsWith(name)){
+        if("gitchat.stream.StreamDemo".startsWith(name)){
             byte[] classData = getData(name);
             if(classData == null){
                 throw new ClassNotFoundException();
@@ -47,7 +47,7 @@ public class PathClassLoader extends ClassLoader {
     }
 
     public static void main(String[] args) throws ClassNotFoundException {
-        PathClassLoader pathClassLoader = new PathClassLoader("E:/BASE/interview/");
-        pathClassLoader.findClass("classloader.bb");
+        PathClassLoader pathClassLoader = new PathClassLoader("E:/BASE/interview/target/classes");
+        pathClassLoader.findClass("gitchat.stream.StreamDemo");
     }
  }

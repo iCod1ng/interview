@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+.idea/vcs.xml
+src/main/java/gitchat/annotation/dto/
+src/main/resources/
+target/
