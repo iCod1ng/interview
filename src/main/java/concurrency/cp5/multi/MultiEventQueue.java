@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * 多线程间通信
  * @author yanyuchi
  * @date 2020-03-07 14:17
  */
