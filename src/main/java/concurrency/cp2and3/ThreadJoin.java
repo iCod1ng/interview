@@ -1,4 +1,4 @@
-package concurrency.cp2;
+package concurrency.cp2and3;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

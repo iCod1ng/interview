@@ -1,6 +1,6 @@
-package concurrency.cp2.example;
+package concurrency.cp2and3.example;
 
-import concurrency.cp2.example.impl.FightQueryTask;
+import concurrency.cp2and3.example.impl.FightQueryTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;

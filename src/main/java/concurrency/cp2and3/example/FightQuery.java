@@ -1,4 +1,4 @@
-package concurrency.cp2.example;
+package concurrency.cp2and3.example;
 
 import java.util.List;
 

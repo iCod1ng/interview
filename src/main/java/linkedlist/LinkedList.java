@@ -19,7 +19,7 @@ public class LinkedList<T> implements Iterable<T> {
     }
 
 
-    private LinkedList(){
+    public LinkedList(){
         head = null;
         tail = null;
     }

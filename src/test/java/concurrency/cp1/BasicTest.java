@@ -25,11 +25,11 @@ public class BasicTest {
     public void runnable(){
         final TicketWindowRunnable task = new TicketWindowRunnable();
 
-        Thread t1 = new Thread(task,"NO 1");
+        Thread t1 = new Thread(task,"一号窗口");
 
-        Thread t2 = new Thread(task,"NO 2");
+        Thread t2 = new Thread(task,"二号窗口");
 
-        Thread t3 = new Thread(task,"NO 3");
+        Thread t3 = new Thread(task,"三号窗口");
 
         t1.start();
         t2.start();

@@ -1,7 +1,7 @@
-package concurrency.cp2.example.impl;
+package concurrency.cp2and3.example.impl;
 
 import com.google.common.collect.Lists;
-import concurrency.cp2.example.FightQuery;
+import concurrency.cp2and3.example.FightQuery;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
