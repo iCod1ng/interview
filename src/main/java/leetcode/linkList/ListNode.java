@@ -1,7 +1,7 @@
-package letcode.linkList;
+package leetcode.linkList;
 
 /**
- * 节点定义
+ * 结点定义
  * @author yanyuchi
  * @date 2020-07-22 10:11
  */
@@ -16,7 +16,7 @@ public class ListNode {
     }
 
     /**
-     * 无头节点尾插法
+     * 头指针尾插法
      * @param a 数组
      */
     public static ListNode  createListR(int a[]){
@@ -40,6 +40,10 @@ public class ListNode {
         return header;
     }
 
+    /**
+     * 打印数组
+     * @param header 头指针
+     */
     public static void printLinkList(ListNode header){
         while (header!=null){
             System.out.println(header.val);

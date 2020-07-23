@@ -1,6 +1,6 @@
-package letcode.linkList.easy.intersect;
+package leetcode.linkList.easy.intersect;
 
-import letcode.linkList.ListNode;
+import leetcode.linkList.ListNode;
 
 /**
  * @author yanyuchi
